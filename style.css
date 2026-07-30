@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+}
+#container{
+    height:500px;
+    width:300px;
+    border:2px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    background-color:rgb(12, 6, 6);
+}
+#display{
+    height:60px;
+    width:300px;
+    font-size:30px;
+    color:rgb(34, 29, 29);
+}
+.box{
+    height:60px;
+    width:60px;
+    border-radius:30px;
+    border:2px solid black;
+    text-align:center;
+    padding-top:7px;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(66, 57, 57);
+    font-size:30px;
+    margin-left:10px;
+    color:white;
+}
+.box:hover{
+    transform:scale(1.2);
+    box-shadow:2px 2px 4px grey;
+}
+
+.sign{
+    background-color:orange;
+}
